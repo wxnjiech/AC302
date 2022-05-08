@@ -1,0 +1,36 @@
+.boxes{
+	width:  80%;
+	height:  150 px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	border: navy 5px double;
+	margin:  10px;
+	background-color: cornsilk;
+}
+
+.content{
+	background-color: PeachPuff;
+	padding: 2px 20px;
+	height:  80%;
+	border: indigo 2px solid;
+}
+
+
+img{
+	width: 150px;
+}
+
+h1{
+	text-align: center;
+	text-shadow: 2px 2px 10px indigo;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: beige;
+}

@@ -1,0 +1,33 @@
+body {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color:  beige;
+}
+
+h1{
+	text-align: center;
+}
+
+.boxes{
+	width: 80%;
+	height: 150px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	border: navy 5px double;
+	margin: 10px auto;
+	background-color: cornsilk;
+}
+
+.content {
+	background-color: PeachPuff;
+	padding:  2px 20px;
+	height:  80%;
+	border: indigo 2px solid;
+}
+
+img{
+	width: 30%;
+}
